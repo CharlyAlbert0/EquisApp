@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataService.API", "DataService.API\DataService.API.csproj", "{74188F58-D973-4CFB-9CEC-C0E4A2A3D4E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataService.Core.ApplicationServices", "DataService.Core.ApplicationServices\DataService.Core.ApplicationServices.csproj", "{DC2C9126-89D1-4DCD-A66E-009ECB0EE50C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 ServicePresentation", "1 ServicePresentation", "{1893CBB2-801C-458B-8CF5-11D63EE052D3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 Core", "2 Core", "{CA084520-2FF4-45F8-9E75-D3A805439484}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 VerticalServices", "3 VerticalServices", "{69144EB5-6B3F-4D96-A9BA-9165853A2E76}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 Model", "4 Model", "{2D1F553F-DC69-4E20-8D67-82A481909A23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataService.ModelServices", "DataService.ModelServices\DataService.ModelServices.csproj", "{12A4E08E-DD19-41C8-80B3-1645F171ADE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataService.Core", "DataService.Core\DataService.Core.csproj", "{53DA17EF-7D6C-44BA-BB02-35EC66FC9F02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataService.VerticalServices", "DataService.VerticalServices\DataService.VerticalServices.csproj", "{95D81E29-3B72-4E8E-973B-933F02DBE1E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataService.DTOs", "DataService.DTOs\DataService.DTOs.csproj", "{BB8CE782-F3DA-4BF8-B049-FF2C8528EB37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataService.DomainModels", "DataService.DomainModels\DataService.DomainModels.csproj", "{FF105DC2-C3D1-441C-A0D7-524825D88B6F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 Presentation", "0 Presentation", "{2942C52B-8049-4EA5-A310-4A5914FE1470}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EquisApp", "EquisApp\EquisApp.csproj", "{88BC8A8E-3958-4A8D-9698-21CB48454922}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74188F58-D973-4CFB-9CEC-C0E4A2A3D4E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74188F58-D973-4CFB-9CEC-C0E4A2A3D4E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74188F58-D973-4CFB-9CEC-C0E4A2A3D4E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74188F58-D973-4CFB-9CEC-C0E4A2A3D4E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC2C9126-89D1-4DCD-A66E-009ECB0EE50C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC2C9126-89D1-4DCD-A66E-009ECB0EE50C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC2C9126-89D1-4DCD-A66E-009ECB0EE50C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC2C9126-89D1-4DCD-A66E-009ECB0EE50C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12A4E08E-DD19-41C8-80B3-1645F171ADE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12A4E08E-DD19-41C8-80B3-1645F171ADE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12A4E08E-DD19-41C8-80B3-1645F171ADE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12A4E08E-DD19-41C8-80B3-1645F171ADE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53DA17EF-7D6C-44BA-BB02-35EC66FC9F02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53DA17EF-7D6C-44BA-BB02-35EC66FC9F02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53DA17EF-7D6C-44BA-BB02-35EC66FC9F02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53DA17EF-7D6C-44BA-BB02-35EC66FC9F02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95D81E29-3B72-4E8E-973B-933F02DBE1E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95D81E29-3B72-4E8E-973B-933F02DBE1E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95D81E29-3B72-4E8E-973B-933F02DBE1E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95D81E29-3B72-4E8E-973B-933F02DBE1E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB8CE782-F3DA-4BF8-B049-FF2C8528EB37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB8CE782-F3DA-4BF8-B049-FF2C8528EB37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB8CE782-F3DA-4BF8-B049-FF2C8528EB37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB8CE782-F3DA-4BF8-B049-FF2C8528EB37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF105DC2-C3D1-441C-A0D7-524825D88B6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF105DC2-C3D1-441C-A0D7-524825D88B6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF105DC2-C3D1-441C-A0D7-524825D88B6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF105DC2-C3D1-441C-A0D7-524825D88B6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88BC8A8E-3958-4A8D-9698-21CB48454922}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88BC8A8E-3958-4A8D-9698-21CB48454922}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88BC8A8E-3958-4A8D-9698-21CB48454922}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88BC8A8E-3958-4A8D-9698-21CB48454922}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{74188F58-D973-4CFB-9CEC-C0E4A2A3D4E3} = {1893CBB2-801C-458B-8CF5-11D63EE052D3}
+		{DC2C9126-89D1-4DCD-A66E-009ECB0EE50C} = {CA084520-2FF4-45F8-9E75-D3A805439484}
+		{12A4E08E-DD19-41C8-80B3-1645F171ADE1} = {2D1F553F-DC69-4E20-8D67-82A481909A23}
+		{53DA17EF-7D6C-44BA-BB02-35EC66FC9F02} = {CA084520-2FF4-45F8-9E75-D3A805439484}
+		{95D81E29-3B72-4E8E-973B-933F02DBE1E9} = {69144EB5-6B3F-4D96-A9BA-9165853A2E76}
+		{BB8CE782-F3DA-4BF8-B049-FF2C8528EB37} = {1893CBB2-801C-458B-8CF5-11D63EE052D3}
+		{FF105DC2-C3D1-441C-A0D7-524825D88B6F} = {2D1F553F-DC69-4E20-8D67-82A481909A23}
+		{88BC8A8E-3958-4A8D-9698-21CB48454922} = {2942C52B-8049-4EA5-A310-4A5914FE1470}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EAE54592-DF0D-4AAE-9824-8FCAAC14FB80}
+	EndGlobalSection
+EndGlobal

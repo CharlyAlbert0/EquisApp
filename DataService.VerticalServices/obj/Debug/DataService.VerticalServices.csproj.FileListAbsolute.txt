@@ -1,0 +1,12 @@
+D:\Development\DotNET\EquisSolution\InternalService.VerticalServices\bin\Debug\InternalService.VerticalServices.dll
+D:\Development\DotNET\EquisSolution\InternalService.VerticalServices\bin\Debug\InternalService.VerticalServices.pdb
+D:\Development\DotNET\EquisSolution\InternalService.VerticalServices\obj\Debug\DataService.VerticalServices.csprojAssemblyReference.cache
+D:\Development\DotNET\EquisSolution\InternalService.VerticalServices\obj\Debug\DataService.VerticalServices.csproj.CoreCompileInputs.cache
+D:\Development\DotNET\EquisSolution\InternalService.VerticalServices\obj\Debug\InternalService.VerticalServices.dll
+D:\Development\DotNET\EquisSolution\InternalService.VerticalServices\obj\Debug\InternalService.VerticalServices.pdb
+D:\Development\DotNET\EquisSolution\DataService.VerticalServices\bin\Debug\DataService.VerticalServices.dll
+D:\Development\DotNET\EquisSolution\DataService.VerticalServices\bin\Debug\DataService.VerticalServices.pdb
+D:\Development\DotNET\EquisSolution\DataService.VerticalServices\obj\Debug\DataService.VerticalServices.csprojAssemblyReference.cache
+D:\Development\DotNET\EquisSolution\DataService.VerticalServices\obj\Debug\DataService.VerticalServices.csproj.CoreCompileInputs.cache
+D:\Development\DotNET\EquisSolution\DataService.VerticalServices\obj\Debug\DataService.VerticalServices.dll
+D:\Development\DotNET\EquisSolution\DataService.VerticalServices\obj\Debug\DataService.VerticalServices.pdb

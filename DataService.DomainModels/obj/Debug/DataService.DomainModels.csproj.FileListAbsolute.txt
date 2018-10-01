@@ -1,0 +1,12 @@
+D:\Development\DotNET\EquisSolution\InternalService.DomainModels\bin\Debug\InternalService.DomainModels.dll
+D:\Development\DotNET\EquisSolution\InternalService.DomainModels\bin\Debug\InternalService.DomainModels.pdb
+D:\Development\DotNET\EquisSolution\InternalService.DomainModels\obj\Debug\DataService.DomainModels.csprojAssemblyReference.cache
+D:\Development\DotNET\EquisSolution\InternalService.DomainModels\obj\Debug\DataService.DomainModels.csproj.CoreCompileInputs.cache
+D:\Development\DotNET\EquisSolution\InternalService.DomainModels\obj\Debug\InternalService.DomainModels.dll
+D:\Development\DotNET\EquisSolution\InternalService.DomainModels\obj\Debug\InternalService.DomainModels.pdb
+D:\Development\DotNET\EquisSolution\DataService.DomainModels\bin\Debug\DataService.DomainModels.dll
+D:\Development\DotNET\EquisSolution\DataService.DomainModels\bin\Debug\DataService.DomainModels.pdb
+D:\Development\DotNET\EquisSolution\DataService.DomainModels\obj\Debug\DataService.DomainModels.csprojAssemblyReference.cache
+D:\Development\DotNET\EquisSolution\DataService.DomainModels\obj\Debug\DataService.DomainModels.csproj.CoreCompileInputs.cache
+D:\Development\DotNET\EquisSolution\DataService.DomainModels\obj\Debug\DataService.DomainModels.dll
+D:\Development\DotNET\EquisSolution\DataService.DomainModels\obj\Debug\DataService.DomainModels.pdb

@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DC2C9126-89D1-4DCD-A66E-009ECB0EE50C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DataService.Core.ApplicationServices</RootNamespace>
+    <AssemblyName>DataService.Core.ApplicationServices</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AutoMapper">
+      <HintPath>..\Lib\AutoMapper.6.2.2\lib\net45\AutoMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="ConfCodeGenerator, Version=1.0.2657.24049, Culture=neutral, PublicKeyToken=7c2aea6f68c4d0ae">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\Transnetwork\ConfirmationCode\ConfCodeGenerator.dll</HintPath>
+    </Reference>
+    <Reference Include="FluentScheduler">
+      <HintPath>..\Lib\FluentScheduler.5.3.0\lib\net40\FluentScheduler.dll</HintPath>
+    </Reference>
+    <Reference Include="NLog">
+      <HintPath>..\Lib\Transnetwork\Logging\NLog\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="RijConfCodeGen, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\Transnetwork\ConfirmationCode\RijConfCodeGen.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Tnc.Log">
+      <HintPath>..\Lib\Transnetwork\Logging\Tnc.Log.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ElasticService.cs" />
+    <Compile Include="CoreApplicationService.cs" />
+    <Compile Include="CatalogApplicationService.cs" />
+    <Compile Include="MapperSpecialService.cs" />
+    <Compile Include="MapperConfigurationService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataService.DomainModels\DataService.DomainModels.csproj">
+      <Project>{FF105DC2-C3D1-441C-A0D7-524825D88B6F}</Project>
+      <Name>DataService.DomainModels</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataService.DTOs\DataService.DTOs.csproj">
+      <Project>{bb8ce782-f3da-4bf8-b049-ff2c8528eb37}</Project>
+      <Name>DataService.DTOs</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataService.ModelServices\DataService.ModelServices.csproj">
+      <Project>{12A4E08E-DD19-41C8-80B3-1645F171ADE1}</Project>
+      <Name>DataService.ModelServices</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataService.VerticalServices\DataService.VerticalServices.csproj">
+      <Project>{95D81E29-3B72-4E8E-973B-933F02DBE1E9}</Project>
+      <Name>DataService.VerticalServices</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ResourcesAppServicesClassDiagram.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

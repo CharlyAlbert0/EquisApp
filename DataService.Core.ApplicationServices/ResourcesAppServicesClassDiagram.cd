@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="DataService.Core.ApplicationServices.CacheApplicationService">
+    <Position X="0.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAEAAAAAAAAA=</HashCode>
+      <FileName>CacheApplicationService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataService.Core.ApplicationServices.CatalogApplicationService">
+    <Position X="3.25" Y="0.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAQAEAiAAwACQAAAQAAAAABAAAQAAAAgAACAFCAAAA=</HashCode>
+      <FileName>CatalogApplicationService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataService.Core.ApplicationServices.MapperConfigurationService">
+    <Position X="7.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapperConfigurationService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataService.Core.ApplicationServices.ScheduleApplicationService">
+    <Position X="0.5" Y="2.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ScheduleApplicationService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataService.Core.ApplicationServices.SecurityApplicationService">
+    <Position X="7.75" Y="1.75" Width="4.75" />
+    <NestedTypes>
+      <Enum Name="DataService.Core.ApplicationServices.SecurityApplicationService.UserTypes" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>SecurityApplicationService.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAEAAAAAAgAAADAAAgAAAAAAAAEAAAgAAAAAA=</HashCode>
+      <FileName>SecurityApplicationService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataService.Core.ApplicationServices.UtilitiesApplicationService">
+    <Position X="3.25" Y="4.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAEAAAAAAAIA=</HashCode>
+      <FileName>UtilitiesApplicationService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataService.VerticalServices.Exceptions.TncAuthorizationException">
+    <Position X="0.5" Y="6.75" Width="3" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.VerticalServices.XmlSerializerService">
+    <Position X="3.75" Y="6.75" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DomainModels.AccountingModel">
+    <Position X="0.5" Y="8.75" Width="3.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DomainModels.ConfirmationCodeModel">
+    <Position X="4.5" Y="8.75" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DomainModels.CountryModel">
+    <Position X="7" Y="8.75" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DomainModels.CurrencyModel">
+    <Position X="9.25" Y="8.75" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DomainModels.FieldInfoModel">
+    <Position X="11.5" Y="8.75" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DomainModels.FxRateModel">
+    <Position X="13.5" Y="8.75" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DomainModels.IdentificationModel">
+    <Position X="4.5" Y="11.25" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DomainModels.KeyValueModel">
+    <Position X="7" Y="11.25" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DomainModels.LocationModel">
+    <Position X="9.25" Y="11.25" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DomainModels.MoneyModel">
+    <Position X="11.75" Y="11.25" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DomainModels.OccupationModel">
+    <Position X="14" Y="11.25" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DomainModels.OperatorInfoModel">
+    <Position X="0.5" Y="14" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DomainModels.PaymentTypeModel">
+    <Position X="2.75" Y="14" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DomainModels.PersonInfoModel">
+    <Position X="16.25" Y="8.75" Width="3" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DomainModels.RelationshipModel">
+    <Position X="5.25" Y="14" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DomainModels.ReturnCodeModel">
+    <Position X="11.75" Y="13.75" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DomainModels.ServerKeyModel">
+    <Position X="14" Y="13.75" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DomainModels.StateModel">
+    <Position X="18.25" Y="19.75" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DomainModels.TransferInfoModel">
+    <Position X="19.75" Y="8.75" Width="3.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DomainModels.TransferPaymentInfoModel">
+    <Position X="0.5" Y="17.5" Width="3.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DomainModels.UserInfoAndAllowedResourcesModel">
+    <Position X="20.25" Y="19.75" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DomainModels.UserLoginModel">
+    <Position X="16.25" Y="19" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DomainModels.WillCallCountryModel">
+    <Position X="11.5" Y="17.5" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DomainModels.WillCallCredentialModel">
+    <Position X="13.75" Y="17.5" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DomainModels.WillCallCurrencyModel">
+    <Position X="7" Y="17.5" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DomainModels.WillCallIdentificationModel">
+    <Position X="4.25" Y="17.5" Width="2.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DomainModels.WillCallProvinceModel">
+    <Position X="9.25" Y="17.5" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.ModelServices.CacheModelService">
+    <Position X="0.5" Y="25" Width="3.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.ModelServices.CatalogsModelService">
+    <Position X="4" Y="27.5" Width="3.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.ModelServices.DbFactory">
+    <Position X="11.5" Y="27.5" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.ModelServices.ModelUtilities">
+    <Position X="0.5" Y="26.5" Width="2.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.ModelServices.SecurityModelService">
+    <Position X="8.5" Y="25" Width="4.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.ModelServices.UtilitiesModelService">
+    <Position X="7.75" Y="27.5" Width="3.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.ModelServices.WillCallModelService">
+    <Position X="4" Y="25" Width="4.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.InitialLoad.AppServices.InProcCacheManager">
+    <Position X="0.5" Y="32.75" Width="4" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DataService.InitialLoad.Contracts.Model.CacheOperationResultModel">
+    <Position X="14.75" Y="32.75" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.InitialLoad.Contracts.Model.InitializeOperationResultModel">
+    <Position X="17.5" Y="32.75" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Interface Name="DataService.InitialLoad.Contracts.ICacheStrategy">
+    <Position X="5" Y="32.75" Width="4.75" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="DataService.InitialLoad.Contracts.IProviderCacheManager">
+    <Position X="10.25" Y="32.75" Width="4" />
+    <TypeIdentifier />
+  </Interface>
+  <Enum Name="DataService.DomainModels.FieldVisibility">
+    <Position X="7.5" Y="14" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

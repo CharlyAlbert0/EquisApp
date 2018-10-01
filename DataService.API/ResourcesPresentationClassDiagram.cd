@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="DataService.API.Bootstrapper">
+    <Position X="0.5" Y="4.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQIAAAAAAAAAAA=</HashCode>
+      <FileName>Bootstrapper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataService.API.Global">
+    <Position X="0.5" Y="6" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAEAAAAAAAAAAECIBQAAAAAAAAA=</HashCode>
+      <FileName>Global.asax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataService.API.TNCResourcesApi" BaseTypeListCollapsed="true">
+    <Position X="9.5" Y="0.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAQAEAiAAwACQAAAQBBAAABAAAQAQAAgEACAFCAAIA=</HashCode>
+      <FileName>TNCResourcesApi.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DataService.DTOs.Common.ConfirmationCode" Collapsed="true">
+    <Position X="44.5" Y="26.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DTOs.Common.Country" Collapsed="true">
+    <Position X="46.25" Y="26.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DTOs.Common.Currency" Collapsed="true">
+    <Position X="48" Y="26.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DTOs.Common.FieldInfo" Collapsed="true">
+    <Position X="49.75" Y="26.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DTOs.Common.FxRate" Collapsed="true">
+    <Position X="51.5" Y="26.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DTOs.Common.IdentificationType" Collapsed="true">
+    <Position X="44.5" Y="27.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DTOs.Common.Info" Collapsed="true">
+    <Position X="46.25" Y="27.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DTOs.Common.Location" Collapsed="true">
+    <Position X="48" Y="27.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DTOs.Common.Occupation" Collapsed="true">
+    <Position X="49.75" Y="27.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DTOs.Common.PaymentInfo" Collapsed="true">
+    <Position X="51.5" Y="27.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DTOs.Common.PaymentType" Collapsed="true">
+    <Position X="44.5" Y="28.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DTOs.Common.PersonInfo" Collapsed="true">
+    <Position X="46.25" Y="28.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DTOs.Common.Relationship" Collapsed="true">
+    <Position X="48" Y="28.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DTOs.Common.ReturnCode" Collapsed="true">
+    <Position X="49.75" Y="28.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DTOs.Common.ServerKeyDTO" Collapsed="true">
+    <Position X="51.5" Y="28.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DTOs.Common.State" Collapsed="true">
+    <Position X="44.5" Y="29.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DTOs.Common.TransferInfo" Collapsed="true">
+    <Position X="46.25" Y="29.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DTOs.Common.UserInfoAndAllowedResources" Collapsed="true">
+    <Position X="48" Y="29.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DTOs.Common.WillCallCatalog" Collapsed="true">
+    <Position X="49.75" Y="29.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DTOs.Common.WillCallCredential" Collapsed="true">
+    <Position X="51.5" Y="29.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DTOs.Requests.BasicRequest">
+    <Position X="13.75" Y="17" Width="2.25" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DataService.DTOs.Requests.GetConfirmationCodeRequest">
+    <Position X="0.5" Y="20" Width="3.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DTOs.Requests.GetCountriesRequest">
+    <Position X="0.5" Y="23" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DTOs.Requests.GetCurrenciesRequest">
+    <Position X="7.25" Y="23" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DTOs.Requests.GetFieldInfoListRequest">
+    <Position X="15.25" Y="20" Width="3" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DTOs.Requests.GetFxRateRequest">
+    <Position X="13.5" Y="23" Width="2.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DTOs.Requests.GetIdentificationTypesRequest">
+    <Position X="16.75" Y="23" Width="3.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DTOs.Requests.GetLocationsRequest">
+    <Position X="22" Y="20" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DTOs.Requests.GetOccupationsRequest">
+    <Position X="28.75" Y="20" Width="3" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DTOs.Requests.GetPaymentTypesRequest">
+    <Position X="4.25" Y="20" Width="3" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DTOs.Requests.GetRelationshipsRequest">
+    <Position X="3.75" Y="23" Width="3" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DTOs.Requests.GetReturnCodesRequest">
+    <Position X="11.25" Y="20" Width="3" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DTOs.Requests.GetStatesRequest">
+    <Position X="10.5" Y="23" Width="2.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DTOs.Requests.GetTransferInfoRequest">
+    <Position X="18.5" Y="20" Width="3" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DTOs.Requests.GetUserAllowedResourcesRequest">
+    <Position X="20.5" Y="23" Width="3.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DTOs.Requests.GetWillCallCatalogRequest">
+    <Position X="25.25" Y="20" Width="3" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DTOs.Requests.GetWillCallReturnCodesRequest">
+    <Position X="24.5" Y="23" Width="3.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DTOs.Requests.WillCallCredentialsRequest">
+    <Position X="7.75" Y="20" Width="3" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DTOs.Responses.BasicResponse">
+    <Position X="14.25" Y="7.5" Width="2.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DataService.DTOs.Responses.GetConfirmationCodeResponse">
+    <Position X="11.5" Y="11" Width="3.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DTOs.Responses.GetCountriesResponse">
+    <Position X="14.5" Y="13.75" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DTOs.Responses.GetCurrenciesResponse">
+    <Position X="17.75" Y="13.75" Width="3" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DTOs.Responses.GetFieldInfoListResponse">
+    <Position X="25" Y="13.75" Width="3" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DTOs.Responses.GetFxRateResponse">
+    <Position X="28.5" Y="13.75" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DTOs.Responses.GetIdentificationTypesResponse">
+    <Position X="0.5" Y="11" Width="3.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DTOs.Responses.GetLocationsResponse">
+    <Position X="0.5" Y="13.75" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DTOs.Responses.GetOccupationsResponse">
+    <Position X="7.75" Y="11" Width="3" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DTOs.Responses.GetPaymentTypesResponse">
+    <Position X="11.75" Y="13.75" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DTOs.Responses.GetRelationshipsResponse">
+    <Position X="20.25" Y="11" Width="3" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DTOs.Responses.GetReturnCodesResponse">
+    <Position X="23.75" Y="11" Width="3" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DTOs.Responses.GetServerKeysResponse">
+    <Position X="27.25" Y="11" Width="3" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DTOs.Responses.GetStatesResponse">
+    <Position X="30.5" Y="11" Width="2.75" />
+    <InheritanceLine Type="DataService.DTOs.Responses.BasicResponse" ManuallyRouted="true">
+      <Path>
+        <Point X="15.5" Y="9.44" />
+        <Point X="15.5" Y="12.634" />
+        <Point X="31.875" Y="12.634" />
+        <Point X="31.875" Y="11" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DTOs.Responses.GetTransferInfoResponse">
+    <Position X="4.25" Y="11" Width="3" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DTOs.Responses.GetUserAllowedResourcesResponse">
+    <Position X="3.75" Y="13.75" Width="3.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DTOs.Responses.GetWillCallCatalogResponse">
+    <Position X="8" Y="13.75" Width="3.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DTOs.Responses.GetWillCallReturnCodesResponse">
+    <Position X="16.25" Y="11" Width="3.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DataService.DTOs.Responses.WillCallCredentialsResponse">
+    <Position X="21.25" Y="13.75" Width="3.25" />
+    <TypeIdentifier />
+  </Class>
+  <Interface Name="DataService.API.ICatalogInterface">
+    <Position X="0.5" Y="0.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAQAEAiAAwACAAAAQBAAAAAAAAQAAAAgAACAFCAAAA=</HashCode>
+      <FileName>ICatalogInterface.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DataService.API.ITncResoucesApi">
+    <Position X="6.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ITncResoucesApi.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DataService.API.IUtilitiesInterface">
+    <Position X="5" Y="0.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAABAAAAAQAAAAAAAAAAAIA=</HashCode>
+      <FileName>IUtilitiesInterface.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DataService.DTOs.Requests.IBasicRequest" Collapsed="true">
+    <Position X="44.5" Y="31" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="DataService.DTOs.Responses.IBasicResponse" Collapsed="true">
+    <Position X="46.25" Y="31" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Enum Name="DataService.DTOs.Common.TransTypeEnum" Collapsed="true">
+    <Position X="48" Y="32" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="DataService.DTOs.Common.PaymentTypeEnum" Collapsed="true">
+    <Position X="46.25" Y="32" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="DataService.DTOs.Common.FieldVisibility" Collapsed="true">
+    <Position X="44.5" Y="32" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
