@@ -10,3 +10,9 @@ D:\Development\DotNET\EquisSolution\DataService.DomainModels\obj\Debug\DataServi
 D:\Development\DotNET\EquisSolution\DataService.DomainModels\obj\Debug\DataService.DomainModels.csproj.CoreCompileInputs.cache
 D:\Development\DotNET\EquisSolution\DataService.DomainModels\obj\Debug\DataService.DomainModels.dll
 D:\Development\DotNET\EquisSolution\DataService.DomainModels\obj\Debug\DataService.DomainModels.pdb
+D:\Development\DotNET\EquisApp\DataService.DomainModels\bin\Debug\DataService.DomainModels.dll
+D:\Development\DotNET\EquisApp\DataService.DomainModels\bin\Debug\DataService.DomainModels.pdb
+D:\Development\DotNET\EquisApp\DataService.DomainModels\obj\Debug\DataService.DomainModels.csprojAssemblyReference.cache
+D:\Development\DotNET\EquisApp\DataService.DomainModels\obj\Debug\DataService.DomainModels.csproj.CoreCompileInputs.cache
+D:\Development\DotNET\EquisApp\DataService.DomainModels\obj\Debug\DataService.DomainModels.dll
+D:\Development\DotNET\EquisApp\DataService.DomainModels\obj\Debug\DataService.DomainModels.pdb

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/DataService.DTOs.Responses" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/DataService.DTOs.Responses" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:57577/DataServiceApi.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/DataService.DTOs.Common" />
+  <xs:complexType name="GetUserResponse">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:BasicResponse">
+        <xs:sequence>
+          <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/DataService.DTOs.Common" minOccurs="0" name="Users" nillable="true" type="q1:ArrayOfUser" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="GetUserResponse" nillable="true" type="tns:GetUserResponse" />
+  <xs:complexType name="BasicResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ReturnCode" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="BasicResponse" nillable="true" type="tns:BasicResponse" />
+</xs:schema>

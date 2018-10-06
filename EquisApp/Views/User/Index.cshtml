@@ -1,0 +1,383 @@
+﻿@model EquisApp.DataServiceReference.GetUserResponse
+
+<style>
+    .dark-edition .btn.btn-primary {
+        color: #fff;
+        background-color: #3f9e4f;
+        border-color: #913f9e;
+        box-shadow: 0 2px 2px 0 rgba(145, 63, 158, 0.14), 0 3px 1px -2px rgba(145, 63, 158, 0.2), 0 1px 5px 0 rgba(145, 63, 158, 0.12);
+    }
+
+    .dark-edition .btn, .dark-edition .btn.btn-default {
+        color: #fff;
+        background-color: #b42525;
+        border-color: #9095a2;
+        box-shadow: 0 2px 2px 0 rgba(144, 149, 162, 0.14), 0 3px 1px -2px rgba(144, 149, 162, 0.2), 0 1px 5px 0 rgba(144, 149, 162, 0.12);
+    }
+
+        .dark-edition .btn:hover, .dark-edition .btn.btn-default:hover {
+            color: #fff;
+            background-color: #b42525;
+            border-color: #9095a2;
+        }
+
+        .dark-edition .btn.btn-primary:hover {
+            color: #fff;
+            background-color: #3f9e4f;
+            border-color: #913f9e;
+        }
+
+    .modal-content {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        pointer-events: auto;
+        background-color: #3C4858;
+        background-clip: padding-box;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        border-radius: 0.3rem;
+        box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.5);
+        outline: 0;
+        border: 1px solid #6c757d;
+    }
+
+    .modal-header {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 1rem;
+        border-bottom: 1px solid #e9ecef;
+        border-top-left-radius: 0.3rem;
+        border-top-right-radius: 0.3rem;
+        color: white;
+    }
+
+    button:focus {
+        outline: 1px dotted;
+        outline: none;
+    }
+
+    .switch {
+        position: relative;
+        display: inline-block;
+        width: 60px;
+        height: 34px;
+    }
+
+        .switch input {
+            display: none;
+        }
+
+    .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #ccc;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 26px;
+            width: 26px;
+            left: 4px;
+            bottom: 4px;
+            background-color: white;
+            -webkit-transition: .4s;
+            transition: .4s;
+        }
+
+    input:checked + .slider {
+        background-color: #2196F3;
+    }
+
+    input:focus + .slider {
+        box-shadow: 0 0 1px #2196F3;
+    }
+
+    input:checked + .slider:before {
+        -webkit-transform: translateX(26px);
+        -ms-transform: translateX(26px);
+        transform: translateX(26px);
+    }
+
+    /* Rounded sliders */
+    .slider.round {
+        border-radius: 34px;
+    }
+
+        .slider.round:before {
+            border-radius: 50%;
+        }
+
+    .swal-footer {
+        background-color: rgb(245, 248, 250);
+        margin-top: 32px;
+        border-top: 1px solid #E9EEF1;
+        overflow: hidden;
+    }
+
+    .swal-overlay {
+        background-color: rgba(43, 165, 137, 0.45);
+    }
+
+</style>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>s
+
+<div class="content">
+    <div class="container-fluid">
+
+
+        <div class="row">
+
+            <div class="col-lg-9 col-md-12">
+                <div class="card">
+                    <div class="card-header card-header-tabs card-header-success">
+                        <div class="nav-tabs-navigation">
+                            <div class="nav-tabs-wrapper">
+                                <span class="nav-tabs-title">Users</span>
+                                <ul class="nav nav-tabs" data-tabs="tabs">
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="modal" data-target="#exampleModal" href="#profile" data-toggle="tab">
+                                            <i class="material-icons">account_circle</i> New User
+                                            <div class="ripple-container"></div>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="ShowFilters" style="cursor:pointer">
+                                            <i class="material-icons">filter_list</i> Filters
+                                            <div class="ripple-container"></div>
+                                        </a>
+                                    </li>
+
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="profile">
+
+
+
+                                <table class="table">
+                                    <tr>
+                                        <th>
+                                            UserLogin
+                                        </th>
+
+                                        <th>
+                                            Status
+                                        </th>
+                                        <th>
+                                            Email
+                                        </th>
+                                        <th>
+                                            Gender
+                                        </th>
+                                        <th></th>
+                                    </tr>
+
+                                    @foreach (var item in Model.Users)
+                                    {
+                                        <tr>
+                                            <td>
+                                                @Html.HiddenFor(modelItem => item.UserId)
+                                                @Html.DisplayFor(modelItem => item.UserLogin)
+
+                                            </td>
+
+                                            <td>
+                                                @if (item.Status == true)
+                                                {
+                                                    <img rel="tooltip" title="Enable" src="~/assets/img/enabled.png" width="35">
+                                                }
+                                                else
+                                                {
+                                                    <img rel="tooltip" title="Disable" src="~/assets/img/disabled.png" width="35" />
+                                                }
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.Email)
+                                            </td>
+                                            <td>
+                                                @if (item.Gender == 1)
+                                                {
+                                                    <img rel="tooltip" title="Male" src="~/assets/img/man.png" width="40">
+                                                }
+                                                else
+                                                {
+                                                    <img rel="tooltip" title="Female" src="~/assets/img/woman.png" width="40" />
+                                                }
+
+                                            </td>
+                                            <td class="td-actions text-right">
+                                                <button type="button" rel="tooltip" title="Edit User" class="btn btn-white btn-link btn-sm">
+                                                    <i class="material-icons">edit</i>
+                                                </button>
+                                                @if (item.Status == true)
+                                                {
+                                                    <button  type="button" rel="tooltip" title="Disable User" class="ChangeStatus btn btn-white btn-link btn-sm">
+                                                        <i class="material-icons">close</i>
+                                                    </button>
+                                                }
+                                                else
+                                                {
+                                                    <button type="button" rel="tooltip" title="Enable User" class="btn btn-white btn-link btn-sm">
+                                                        <i class="material-icons">done</i>
+                                                    </button>
+                                                }
+
+                                            </td>
+                                        </tr>
+                                    }
+
+                                </table>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-12" id="FilterAv" style="display:none">
+                <div class="card">
+                    <div class="card-header card-header-tabs card-header-info">
+                        <div class="nav-tabs-navigation">
+                            <div class="nav-tabs-wrapper">
+                                <ul class="nav nav-tabs" data-tabs="tabs">
+                                    <li class="nav-item">
+                                        <a class="nav-link" style="cursor:pointer">
+                                            <i class="material-icons">clear_all</i> Clear Filter
+                                            <div class="ripple-container"></div>
+                                        </a>
+                                    </li>
+
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="profile">
+
+
+
+                                <form style="text-align:left">
+
+                                    <div class="row">
+
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label class="bmd-label-floating">User Login</label>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="row">
+
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label class="bmd-label-floating">Status</label>
+                                                <br />
+                                                Enable | Disable
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="row">
+
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+
+                                                <label class="switch">
+                                                    <input type="checkbox" checked>
+                                                    <span class="slider round"></span>
+                                                </label>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="row">
+
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label class="bmd-label-floating">Email</label>
+                                                <input type="password" class="form-control">
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="row">
+
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label class="bmd-label-floating">Gender</label>
+                                                <br />
+                                                Male | Female
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="row">
+
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+
+                                                <label class="switch">
+                                                    <input type="checkbox">
+                                                    <span class="slider round"></span>
+                                                </label>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="clearfix"></div>
+                                </form>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    
+</script>

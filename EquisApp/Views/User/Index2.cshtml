@@ -1,0 +1,72 @@
+﻿@model IEnumerable<EquisApp.DataServiceReference.User>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Gender)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Password)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ReturnCode)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ReturnString)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Salt)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Status)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.UserLogin)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td >
+            @Html.DisplayFor(modelItem => item.Email)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Gender)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Password)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ReturnCode)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ReturnString)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Salt)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Status)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.UserLogin)
+        </td>
+        <td class="td-actions text-right">
+            <button type="button" rel="tooltip" title="Edit Task" class="btn btn-white btn-link btn-sm">
+                <i class="material-icons">edit</i>
+            </button>
+            <button type="button" rel="tooltip" title="Remove" class="btn btn-white btn-link btn-sm">
+                <i class="material-icons">close</i>
+            </button>
+        </td>
+    </tr>
+}
+
+</table>

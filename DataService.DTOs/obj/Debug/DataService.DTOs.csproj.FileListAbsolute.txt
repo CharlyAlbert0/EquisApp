@@ -10,3 +10,8 @@ D:\Development\DotNET\EquisSolution\DataService.DTOs\obj\Debug\DataService.DTOs.
 D:\Development\DotNET\EquisSolution\DataService.DTOs\obj\Debug\DataService.DTOs.csproj.CoreCompileInputs.cache
 D:\Development\DotNET\EquisSolution\DataService.DTOs\obj\Debug\DataService.DTOs.dll
 D:\Development\DotNET\EquisSolution\DataService.DTOs\obj\Debug\DataService.DTOs.pdb
+D:\Development\DotNET\EquisApp\DataService.DTOs\bin\Debug\DataService.DTOs.dll
+D:\Development\DotNET\EquisApp\DataService.DTOs\bin\Debug\DataService.DTOs.pdb
+D:\Development\DotNET\EquisApp\DataService.DTOs\obj\Debug\DataService.DTOs.csproj.CoreCompileInputs.cache
+D:\Development\DotNET\EquisApp\DataService.DTOs\obj\Debug\DataService.DTOs.dll
+D:\Development\DotNET\EquisApp\DataService.DTOs\obj\Debug\DataService.DTOs.pdb

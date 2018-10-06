@@ -24,12 +24,28 @@ namespace DataService.ModelServices
             {
                 var result = new List<UserModel>();
                 var utilities = new ModelUtilities();
+                bool HasError = false;
+                string MessageOut = "";
 
                 using (var command = _connection.CreateCommand())
                 {
                     command.CommandText = "st_GetUsers";
                     command.CommandType = CommandType.StoredProcedure;
 
+                    var vHasError = new SqlParameter("@HasError", SqlDbType.Bit)
+                    {
+                        Value = HasError,
+                        Direction = ParameterDirection.Output
+                    };
+
+                    var vMessageOut = new SqlParameter("@MessageOut", SqlDbType.NVarChar)
+                    {
+                        Value = MessageOut,
+                        Direction = ParameterDirection.Output
+                    };
+
+                    command.Parameters.Add(vHasError);
+                    command.Parameters.Add(vMessageOut);
                     _connection.Open();
                     using (var reader = command.ExecuteReader())
                     {
@@ -42,9 +58,8 @@ namespace DataService.ModelServices
                             cc.Salt = utilities.GetString(reader["Salt"]);
                             cc.Status = utilities.GetNotNullBool(reader["Status"]);
                             cc.Gender = utilities.GetNotNullInt(reader["Gender"]);
-                            cc.ReturnCode = utilities.GetNotNullInt(reader["ReturnCode"]);
-                            cc.ReturnString = utilities.GetString(reader["ReturnString"]);
-                            
+                            cc.Email = utilities.GetString(reader["Email"]);
+
                             result.Add(cc);
                         }
                     }

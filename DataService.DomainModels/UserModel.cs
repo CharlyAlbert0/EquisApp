@@ -13,9 +13,7 @@ namespace DataService.DomainModels
             Salt = "";
             Gender = 1;
             Email = "";
-            Status = false;           
-            ReturnCode = 0;
-            ReturnString = "";
+            Status = false;     
         }
 
         #endregion

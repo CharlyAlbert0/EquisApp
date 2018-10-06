@@ -25,9 +25,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataService.DTOs", "DataSer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataService.DomainModels", "DataService.DomainModels\DataService.DomainModels.csproj", "{FF105DC2-C3D1-441C-A0D7-524825D88B6F}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 Presentation", "0 Presentation", "{2942C52B-8049-4EA5-A310-4A5914FE1470}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 Presentation", "5 Presentation", "{2942C52B-8049-4EA5-A310-4A5914FE1470}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EquisApp", "EquisApp\EquisApp.csproj", "{88BC8A8E-3958-4A8D-9698-21CB48454922}"
+	ProjectSection(ProjectDependencies) = postProject
+		{74188F58-D973-4CFB-9CEC-C0E4A2A3D4E3} = {74188F58-D973-4CFB-9CEC-C0E4A2A3D4E3}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

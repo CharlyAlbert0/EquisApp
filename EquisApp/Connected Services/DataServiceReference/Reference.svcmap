@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="92a95685-088d-450f-ac5c-fffd52b04bce" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:57577/DataServiceApi.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="DataServiceApi.xsd" MetadataType="Schema" ID="c78565ba-1dcd-4492-bd3c-0b6a6bec044b" SourceId="1" SourceUrl="http://localhost:57577/DataServiceApi.svc?xsd=xsd3" />
+    <MetadataFile FileName="DataServiceApi1.xsd" MetadataType="Schema" ID="9e13e189-55d6-44a1-a105-b7ed4ce76a51" SourceId="1" SourceUrl="http://localhost:57577/DataServiceApi.svc?xsd=xsd2" />
+    <MetadataFile FileName="DataServiceApi2.xsd" MetadataType="Schema" ID="931d8bce-d941-48d1-9f88-abd6a94d95fa" SourceId="1" SourceUrl="http://localhost:57577/DataServiceApi.svc?xsd=xsd1" />
+    <MetadataFile FileName="DataServiceApi3.xsd" MetadataType="Schema" ID="a8147d83-f56d-466b-929a-060a99a14d9f" SourceId="1" SourceUrl="http://localhost:57577/DataServiceApi.svc?xsd=xsd0" />
+    <MetadataFile FileName="DataServiceApi.wsdl" MetadataType="Wsdl" ID="4c8ba617-b6bc-4c3c-80fa-d4c7c812db47" SourceId="1" SourceUrl="http://localhost:57577/DataServiceApi.svc?wsdl" />
+    <MetadataFile FileName="DataServiceApi.disco" MetadataType="Disco" ID="f985d53a-78de-4a29-9233-f3c545c9cf19" SourceId="1" SourceUrl="http://localhost:57577/DataServiceApi.svc?disco" />
+    <MetadataFile FileName="DataServiceApi4.xsd" MetadataType="Schema" ID="17702496-1691-4456-8d01-922a823a2209" SourceId="1" SourceUrl="http://localhost:57577/DataServiceApi.svc?xsd=xsd4" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
